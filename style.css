@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario{
+    width: 900px;
+    margin: 100px auto 10px;
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+}
+
+form h1, input, button{
+    padding: 14px;
+    height: 50px;
+}
+
+form input{
+    width: 80%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form button{
+    cursor: pointer;
+    font-weight: bolder;
+    float: right;
+    border-radius: 5px;
+}
+
+.lista{
+    width: 900px;
+    margin: auto;
+}
+
+.lista-tarefas{
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.tarefa{
+    background-color: rgb(223, 223, 198);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-decoration: wavy;
+}
+
+.tarefa:hover{
+    opacity: 0.5;
+    transition: all ease-in-out .5s;
+    color: red;
+    font-size: 35px;
+}
+
+img{
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img:hover{
+    height: 40px;
+}
+
+#check{
+    text-decoration: line-through;
+    color: red;
+}
